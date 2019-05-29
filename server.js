@@ -9,6 +9,6 @@ app.use(bodyParser.urlencoded());
 app.use(productRouter);
 app.use(userRouter);
 
-app.listen(3000, '0.0.0.0', () => {
+app.listen(4000, '0.0.0.0', () => {
     console.log(`Server started on 3000`);
 });
